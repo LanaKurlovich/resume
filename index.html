@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, Lana, Websites">
+    <meta name="descrition" content="Сайт-резюме Светланы">
+    <title>Lana Resume</title>
+    <link rel="stylesheet" href="01_selectors.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="img/photo.jpeg" alt="Фото" class="avatar">
+            <div class="info-text">
+                              
+                <h1>Светлана Курлович</h1>
+                <p>Я - <strong>учитель химии</strong>, работаю в гимназии с учащимися 7-11 классов.</p> 
+                <p>Я хочу научиться <em>разрабатывать сайты</em> и изучаю <em>английский язык.</em></p> 
+                    
+                <h4>Список социальных сетей:</h4>
+                <a href="#" target="_blank">Telegram</a>
+                <a href="https://vk.com/id242480799" target="_blank">ВКонтакте</a>
+            </div>
+
+        </div>
+        
+        
+        <div class="card bg-green">
+            <h3>Мои хобби:</h3>
+            <ol class="list" >
+                <li>Чтение</li>
+                <li>Кулинария</li>
+                <li>Английский язык</li>
+                <li>Программирование</li>
+            </ol>
+        </div>
+    
+        <div class="card bg-blue">
+            <h3>Курсы по программированию</h3>
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название </th>
+                        <th>Курс</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wayup</td>
+                        <td>Веб-верстальщик: начало</td>
+                        <td>2022</td>  
+                    </tr>
+                    <tr>
+                        <td>Result.School</td>
+                        <td>HTML&CSS - это первый шаг, чтобы стать IT-разработчиком</td>
+                        <td>2022</td>  
+                    </tr>
+                </tbody>
+    
+            </table>
+        </div>
+        
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+        </div>
+        
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="messsage" placeholder="Введите сообщение..."cols="25" rows="5"></textarea> 
+            </div>
+            <button class="btn" type="submit">Отправить!</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>                                
